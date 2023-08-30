@@ -1,0 +1,23 @@
+{
+    "liveServer.settings.port": 5505,
+    "cSpell.words": [
+        "Assest",
+        "headlogo",
+        "headpic",
+        "homepageimage",
+        "logotitle",
+        "micropphone",
+        "mytube",
+        "rightsidebar",
+        "roughdraftimage",
+        "searchbox"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:myTubeVideos2}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}

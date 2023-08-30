@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>MyTube</title>
+    <link rel="stylesheet" href="stylesindex.css" </head>
+<body>
+    <header id="toTop">
+        <div class="containerHeader">
+            <div>
+                <img src="/pages/mytubeAsset_Icons/containerHeader/youTubeLogo.png" class="redLogo boxShadow">
+            </div>
+            <div>
+                <img src="/pages/mytubeAsset_Icons/containerHeader/searchBar.png" class="search">
+            </div>
+            <div>
+                <img src="/pages/mytubeAsset_Icons/containerHeader/microphoneIcon.png" class="microphone ">
+            </div>
+            <img src="/pages/mytubeAsset_Icons/containerHeader/bellIcon.png" class="bell">
+            <div>
+                <div>
+                    <img src="/pages/mytubeAsset_Icons/containerHeader/avatar.jpg" class="headpic">
+                </div>
+            </div>
+        </div>
+
+        <div class="leftMenuContainer">
+            <ul class="leftMenu">
+                <li class="leftMenuNav">
+                    <a href="/" class="home">Home</a>
+                    <img src="/pages/mytubeAsset_Icons/leftMenu/home.png" class="homeLogo boxShadow">
+                </li>
+                <li class="leftMenuNav">
+                    <a href="./pages/CarsCollection1.html" class="autos">Cars</a>
+                    <img src="/pages/mytubeAsset_Icons/leftMenu/auto.jpg" class="carLogo boxShadow">
+                </li>
+                <li class="leftMenuNav">
+                    <a href="./pages/HorrorCollection2.html" class="scary" style="font-size: 12pt;">Spooky Horror</a>
+                    <img src="/pages/mytubeAsset_Icons/leftMenu/holloween.jpg" class="pumpkinLogo boxShadow">
+                </li>
+                <li class="leftMenuNav">
+                    <a href="./pages/ExoticBirdsCollection3.html" class="bird" style="font-size: 12pt;">Birds</a>
+                    <img src="/pages/mytubeAsset_Icons/leftMenu/parrot-2756488_640.jpg" class="birdLogo boxShadow">
+                </li>
+                <li>
+                    <a href="./forms.html" class="form" style="font-size: 12pt;">Video Selection</a>
+                </li>
+            </ul>
+
+            <div class="videoSelect-Container">
+                <div class="videoInput">
+                    <h2>Choose New Video</h2>
+                    <label for="videoName">Video Name</label><br>
+                    <input id="videoName" name="videoName" type="text"><br><br>
+                    <h3><label for="contentDescription">Content Description</label></h3>
+                    <textarea rows="5" cols="20"></textarea><br><br>
+                    <h3><label for="choosevideo">Choose Video</label><br></h3>
+                    <input type="button" value="Choose File" onclick="msg()"><br><br><br>
+                    <select id="choosevideo" name="choosevideo">
+                        <option value="2022acurardxaspecadvance">2022 Acura RDX A Spec Advance</option>
+                        <option value="2022lexusis350fsport">2022 Lexus IS 350 F Sport</option>
+                        <option value="2022hyundaigenesisg70">2022 Hyundai Genesis G70</option>
+                        <option value="2022acuramdxaspec">2022 Acura MDX A Spec</option>
+                        <option value="2022mercedesbenzc-class">2022 Mercedes Benz C-Class</option>
+                        <option value="2022rangeroverevoque">2022 Range Rover Evoque</option>
+                        <option value="whygrencheekconuresaregoodbirds">Why Green Cheek Conures are good birds</option>
+                        <option value="allaboutmacaws">All ABout Macaws</option>
+                        <option value="10signsthatyourcockatiellikesyou">10 Signs that your Cockatiel likes you</option>
+                        <option value="thedomestic">The Domestic</option>
+                        <option value="toucandiscoversawatermelonforthefirsttime!">Toucan Discovers a Watermelon for the
+                            First
+                            Time!</option>
+                        <option value="11amazingcockatoofactsyoudidntknow">11 Amazing Cockatoo Facts You Didn't Know
+                        </option>
+                        <option value="freddy'sdead:thefinalnightmare">Freddy's Dead: The Final Nightmare</option>
+                        <option value="child'splay(1988)">Child's Play (1988)</option>
+                        <option value="thetexaschainsawmassacre">Texas Chainsaw Massacre</option>
+                        <option value="halloweenkills(michaelmyers)">Halloween Kills (Michael Myers)</option>
+                        <option value="blackchristmas(2006)">Black Christmas (2006)</option>
+                        <option value="fridaythe13th:jasontakesmanhattan(1989)">Friday the 13th: Jason Takes Manhattan
+                            (1989)
+                        </option><br><br><br>
+                    </select><br><br><br>
+                    <input name="type" id="public" type="radio">
+                    <label for="public">Public</label>
+                    <input name="type" id="private" type="radio">
+                    <label for="private">Private</label><br><br><br><br><br>
+                    <input type="button" value="Upload Video" size="20" onclick="msg()"><br><br><br>
+                </div>
+            </div>
+        </div>
+        </div>
+        <h2 class="sub-three">Subscriptions</h2>
+        <div class="leftMenuContainerTwo">
+            <ul class="leftMenuTwo" style="margin-left: 25px;">
+                <li class="leftMenuNavTwo">
+                    <p class="music">Today's Music</p>
+                    <img src="/pages/mytubeAsset_Icons/leftMenuTwo/photoMusicPhones.jpeg" class="headPhones boxShadow">
+                </li>
+                <li class="leftMenuNavTwo">
+                    <p class="food">Food & Drink</p>
+                    <img src="/pages/mytubeAsset_Icons/leftMenuTwo/burger.png" class="burger boxShadow">
+                </li>
+                <li class="leftMenuNavTwo">
+                    <p class="travel">Travel & Lifestyle</p>
+                    <img src="/pages/mytubeAsset_Icons/leftMenuTwo/purse.png" class="purse boxShadow">
+                </li>
+                <li class="leftMenuNavTwo">
+                    <p class="fashion">Fashion</p>
+                    <img src="/pages/mytubeAsset_Icons/leftMenuTwo/clothing.png" class="clothing boxShadow">
+                </li>
+                <li class="leftMenuNavTwo">
+                    <p class="show" style="color: red;">Show more</p>
+                </li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
